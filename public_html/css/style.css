@@ -1,0 +1,138 @@
+*{
+	font-family:all;
+	margin:0;
+padding: 0;
+}
+
+/*html, body {
+	height: 3000px;
+}*/
+
+
+.bgr{
+height: 100vh;
+background-image: url(https://wallpaperplay.com/walls/full/6/9/5/206160.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.bgr2{
+height: 100vh;
+background-image: url("../img/bgr2.jpg");	
+background-size: cover;
+background-position: center;
+/*background-repeat: no-repeat;*/
+}
+
+.bgr3{
+height: 100vh;
+background-image: url("../img/black1.jpg");	
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/*.navbar{
+	position:sticky;
+}*/
+
+.specialtext{
+	bottom: 1vh;
+	position: fixed;
+	right: 2vw;
+}
+
+.indtex{
+	color:#FFF;
+	margin-top: 15vh;
+	margin-left: 1vw;
+	margin-right: 20vw;
+	
+	font-size: 3vh;
+}
+
+
+.formtex{
+	color:#FFF;
+	margin-top: 2vh;
+	margin-left: 1vw;
+	margin-right: 20vw;
+	
+	font-size: 2vh;
+}
+
+.formbtn{
+	margin-left:1vw;
+}
+
+.mytab{
+	color:white;
+	font-size: 3vh;
+}
+
+.ghim{
+	margin-left: 2vw;
+	width: 9vw;
+	transition: background-color .5s;
+
+}
+
+.ghim:hover{
+	/*border: 9vh;*/
+	background-color: #808080;
+	border-radius: 1vh;
+}
+
+.msim{
+	margin-left: 1vw;
+	width: 7vw;
+
+}
+
+.it1{
+	/*background-color:white;*/
+	width:7vw;
+
+	margin-left: 1vw;
+}
+
+
+.karosel{
+	width: 30vw;
+	height: 20vh;
+}
+
+.karosel:hover{
+	/*text-align: center;*/
+	cursor: pointer;
+}
+
+.mynav:hover {
+	border: 1px solid blue;
+	color: blue;
+
+}
+
+.arrow{
+	display:none;
+position: fixed;
+margin-left: 50%; 
+width: 3vw;
+margin-bottom: 3vh;
+float: bottom;
+bottom: 3vh;
+ cursor: pointer;
+  /*right: 0; 
+  bottom: 0;
+  width: 3%;*/	
+}
+
+.arrow:hover{
+	background-color: #555;
+	border-radius: 3vh;
+}
+/*.up{
+	float: center; 
+  margin: 20px;
+}*/

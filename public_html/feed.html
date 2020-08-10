@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap.native/2.0.27/bootstrap-native-v4.min.js"></script>
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- to make responsive --> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Sarthak Agrawal</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body onload="makeTable()" class="bgr2">
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  
+    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+     <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="about.html">About</a>
+      <a class="nav-item nav-link active" href="feed.html">Feedback<span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+</nav>
+<br><br><br>
+
+
+<form class="formtex">
+
+   <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
+  </div>
+
+   <div class="form-group">
+    <label for="exampleFormControlInput2">Skill</label>
+    <input class="form-control" id="exampleFormControlInput2" placeholder="Enter skill">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Level</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Proficeint</option>
+    </select>
+  </div>
+
+
+   <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comment</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+
+<button class="formbtn" onclick="addRow()">Submit</button>
+
+<br>
+
+<table id="form_tble" class="table table-bordered mytab">
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Skill</th>
+    <th scope="col">Intermediate</th>
+    <th scope="col">Comment</th>
+  </tr>
+
+</table>
+
+
+ <img id="nrc" onclick="gototop()" src="img/arrow1.png" alt="up" class="arrow">
+
+<script src="js/top.js" type="text/javascript">
+</script> 
+
+<script src="js/frm.js" type="text/javascript">
+  
+</script>
+
+</body>
+
+
+</html>    
